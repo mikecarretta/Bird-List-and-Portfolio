@@ -1,0 +1,1107 @@
+/*   
+Theme Name: Birds
+Theme URI: http://mikecarretta.com/wordpress/
+Description: A fully responsive HTML5/CSS3 WordPress theme developed specifically for birders. The theme highlights include: custom post type and taxonomy for birds. There are four custom page templates included: portfolio, bird list, full page width, and a home page. Other custom templates included: custom category, taxonomy, archive, single, loop and search. The theme has an options page to change the header and body background color or texture, logo image, add footer text and add a favicon. The footer has three widget areas.
+Author: Mike Carretta
+Author URI: http://mikecarretta.com
+Version: 0.1
+Tags: zurb-foundation-grid, responsive, custom-post-types, custom-templates, custom-post-type-widgets, custom-widget-areas, post-thumbnails, custom-header, custom-background, custom-favicon, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+License: GNU GENERAL PUBLIC LICENSE see attached gpl-3.0.txt
+License URI: http://www.gnu.org/copyleft/gpl.html
+*/
+/*	--------------------------------------------------
+	:: Global Reset & Standards
+	-------------------------------------------------- */
+/* 
+		Eric Meyer's CSS Reset
+		http://meyerweb.com/eric/tools/css/reset/ 
+		v2.0 | 20110126
+   		License: none (public domain)
+	*/
+
+/* HTML5 display-role reset for older browsers */
+
+/* -----------------------------------------
+Base Styles 
+Color Pallet: http://www.colourlovers.com/palette/1/metro
+Lovers Gray #515151, White #fff, Metro Blue #00B4FF, Metro Blue 50% #7FDAFF, QWhite #eee
+----------------------------------------- */
+
+/* -----------------------------------------
+	Code
+----------------------------------------- */
+
+/* -----------------------------------------
+	Hyperlinks
+----------------------------------------- */
+
+/* -----------------------------------------
+	Header
+	background pattern: http://subtlepatterns.com/patterns/darkdenim3.png
+----------------------------------------- */
+
+#headerLogo {
+	float:right;
+}
+
+/* -----------------------------------------
+	Search
+----------------------------------------- */
+#searchform-wrap {
+	float: left;
+}
+
+#searchform #s {
+	padding-right: 28px;
+	padding-left: 0;
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	right: -9000em;
+	left: auto;
+}
+
+/* -----------------------------------------
+Navigation Inspired by:
+http://wptheming.com/2010/07/portfolio-theme/
+----------------------------------------- */
+#navigation {
+	float:right;
+}
+
+#navigation ul li {
+	float:right;
+	margin-right:1px;
+	margin-left: auto;
+}
+
+#navigation ul li a.sf-with-ul {
+	padding-left:25px;
+	padding-right: 0;
+}
+
+/* Drop-down menus */
+
+#navigation ul li ul {
+	right: -999em;
+	margin-right:0;
+	left: auto;
+	margin-left: auto;
+}
+
+#navigation ul li ul li {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+#navigation ul li ul ul {
+	margin: -30px 180px 0 0;
+}
+
+#navigation ul li:hover ul, #navigation ul li.sfhover ul, #navigation ul li li:hover ul, #navigation ul li li.sfhover ul, #navigation ul li li li:hover ul, #navigation ul li li li.sfhover ul, #navigation ul li li li li:hover ul, #navigation ul li li li li.sfhover ul {
+	right:auto;
+	left: auto;
+}
+
+#navigation ul .sf-sub-indicator {
+	left:0.4em;
+	right: auto;
+}
+
+#navigation li ul .sf-sub-indicator {
+	background:url(images/arrow-left.png) no-repeat;
+}
+
+/* CSS3 Menu Effects */
+
+/* -----------------------------------------
+	Content
+----------------------------------------- */
+
+/* Posts */
+
+/* -----------------------------------------
+	Meta Data
+----------------------------------------- */
+
+/* Typographic Elements */
+
+#content blockquote {
+	padding: 10px 50px 10px 20px;
+}
+
+#content ul {
+	padding: 0 30px 0 0;
+}
+
+#content ol {
+	padding: 0 30px 0 0;
+}
+
+/* -----------------------------------------
+	Images
+----------------------------------------- */
+
+.thumbExcerpt {
+	float: right;
+	padding: 0px 0px 10px 15px;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 5px 15px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 15px 5px 0;
+}
+
+.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* -----------------------------------------
+GALLERY
+----------------------------------------- */
+
+/* gallery item */
+#content .gallery dl {
+	margin: 0 0 8px 8px;
+}
+
+/* gallery caption */
+
+/* get rid of br tag */
+
+/* -----------------------------------------
+POST Formats
+----------------------------------------- */
+
+.image-wrap h3 {
+	right:6px;
+	left: auto;
+}
+
+/* -----------------------------------------
+POST NAVIGATION
+----------------------------------------- */
+
+.post-nav .prev {
+	float: right;
+}
+
+.post-nav .next {
+	float: left;
+	text-align: left;
+}
+
+/* post nav arrow */
+.post-nav span span {
+	float: right;
+	margin: -8px 0 17px 10px;
+}
+
+.post-nav .next span {
+	float: left;
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+#post-nav .nav-previous {
+	float: right;
+	text-align: right;
+}
+
+#post-nav .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* -----------------------------------------
+	Sidebar
+----------------------------------------- */
+
+/* -----------------------------------------
+	Widgets
+----------------------------------------- */
+
+.widget-container ul {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+.widget-container ul ul {
+	padding: 0 15px 0 0;
+}
+
+/* -----------------------------------------
+	Home Page Widgets
+----------------------------------------- */
+
+#homePageWidget .CustomPostWidget img {
+	float: right;
+	padding: 0px 0px 1% 2%;
+}
+
+#homePageWidget .portfolioWidget img {
+	float: right;
+	padding: 0px 0px 1% 1%;
+}
+
+/* -----------------------------------------
+	Custom Post Widgets
+----------------------------------------- */
+/* -- Birds Custom Post Widgets -- */
+
+.CustomPostWidget img {
+	float: right;
+	padding: 0px 0px 5px 20px;
+}
+
+/* -- Portfolio Custom Post Widgets -- */
+.portfolioWidget img {
+	float: right;
+	padding: 0px 0px 5px 5px;
+}
+
+/* -- Category Custom Post Widgets -- */
+
+/* -- Bird Order & Family Category Custom Post Widgets -- */
+
+/* -----------------------------------------
+	Taxonomy
+----------------------------------------- */
+
+/* -----------------------------------------
+	Footer
+----------------------------------------- */
+
+/* -----------------------------------------
+	Footer Widgets
+----------------------------------------- */
+#footerWidgets {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px;
+}
+
+#footerWidgetsContainer {
+	float: right;
+}
+
+/* -----------------------------------------
+	Footer Site Generator
+----------------------------------------- */
+
+/* -----------------------------------------
+	Calendar
+----------------------------------------- */
+
+/* -----------------------------------------
+	Comments
+----------------------------------------- */
+
+#comments .commentlist {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+#comments .comment-author img {
+	float:right;
+	margin: 0 0 5px 15px;
+}
+
+#comments ul.children {
+	margin:10px 25px 0 10px;
+}
+
+/* -----------------------------------------
+	Comment Form
+----------------------------------------- */
+
+#comments .commentlist {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+#comments .comment-author img {
+	float:right;
+	margin: 0 0 5px 15px;
+}
+
+#comments ul.children {
+	margin:10px 25px 0 10px;
+}
+
+/* Comments Form */
+
+#commentform input.txt {
+	margin: 0 0 10px 5px;
+}
+
+/* -----------------------------------------
+	Pingbacks and Trackbacks
+----------------------------------------- */
+
+.pinglist li {
+	margin: 0 20px 0 0;
+}
+
+/* Search Form */
+
+/* Other Classes */
+
+/* ----------------------------------------------------------------------------------
+	Bird List Content
+---------------------------------------------------------------------------------- */
+
+#birdListCols {
+	float: right;
+	margin: 1% 0 1% 1%;
+	padding: 1% 0 1% 1%;
+}
+
+#birdListCols-Small {
+	float: right;
+}
+
+#birdCount {
+	float: left;
+}
+
+#birdCountText {
+	float: left;
+}
+
+#birdCountBox {
+	float: left;
+}
+
+#birdListThumb {
+	float: right;
+}
+
+#birdListThumb-small {
+	float: right;
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+#birdListPageNav {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-radius-bottomright: 4px;
+	border-radius-bottomleft: 4px;
+}
+
+/* Birds Category (Family and Order) styles */
+
+/* -----------------------------------------
+	Birds List - Thumbnail and Title Only
+----------------------------------------- */
+.birdListView2 {
+	float: right;
+}
+
+/* -----------------------------------------
+	Home Page Feature News Custom Post Type
+----------------------------------------- */
+
+#featureNews div {
+	right:0;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-radius-topright: 4px;
+	border-radius-bottomright: 4px;
+	left: auto;
+}
+
+/* home page styles */
+
+/* -----------------------------------------
+	Portfolio
+----------------------------------------- */
+
+.portfolioItem {
+	float: right;
+}
+
+/* -----------------------------------------
+	Pagination / WP-Pagenavi 
+	If you're using PageNavi you should turn the css in its settings page
+----------------------------------------- */
+
+.wp-pagenavi a:link, .wp-pagenavi a:visited {
+	float: right;
+	margin-right:6px;
+	margin-left: auto;
+}
+
+.wp-pagenavi .current, .wp-pagenavi .on, .wp-pagenavi a:hover {
+	float: right;
+	margin-right:6px;
+	margin-left: auto;
+}
+
+.wp-pagenavi span.extend, .wp-pagenavi span.pages {
+	float: right;
+}
+
+#content nav .nav-previous, #portfolio nav .nav-previous {
+	float: right;
+}
+
+#content nav .nav-next, #portfolio nav .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* -----------------------------------------
+	Attachments
+----------------------------------------- */
+.imageAttachment {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* -----------------------------------------
+	Home page featured slider - Orbit
+----------------------------------------- */
+
+/*	--------------------------------------------------
+	Flickr Widget Style: http://wordpress.org/extend/plugins/dp-flickr-widget/
+	float all thumbnail sizes right
+	Footer or Siderbar widget area
+	-------------------------------------------------- */
+.flickr_badge_image {
+	float: right;
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+/* -------------------------------------------------------------------------------------------
+	MEDIA QUERIES   
+	Responsive Menu, Portfolio, Bird List
+------------------------------------------------------------------------------------------- */
+@media only screen and (max-width : 940px), only screen and (max-device-width : 940px) {
+
+}
+
+@media only screen and (max-width : 720px), only screen and (max-device-width : 720px) {
+
+/* -----------------------------------------
+	Home page featured slider - Orbit
+----------------------------------------- */
+
+/*	--------------------------------------------------
+	Flickr Widget Style: http://wordpress.org/extend/plugins/dp-flickr-widget/
+	float all thumbnail sizes right
+	Footer or Siderbar widget area
+	-------------------------------------------------- */
+.flickr_badge_image {
+	float: right;
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+/* -------------------------------------------------------------------------------------------
+	MEDIA QUERIES   
+	Responsive Menu, Portfolio, Bird List
+------------------------------------------------------------------------------------------- */
+@media only screen and (max-width : 940px), only screen and (max-device-width : 940px)
+}
+
+@media only screen and (max-width : 530px), only screen and (max-device-width : 530px) {
+
+/* -------------------------------------------------------------------------------------------
+	MEDIA QUERIES   
+	Responsive Menu, Portfolio, Bird List
+------------------------------------------------------------------------------------------- */
+@media only screen and (max-width : 940px), only screen and (max-device-width : 940px)
+@media only screen and (max-width : 720px), only screen and (max-device-width : 720px) {
+
+/* -----------------------------------------
+	Home page featured slider - Orbit
+----------------------------------------- */
+
+/*	--------------------------------------------------
+	Flickr Widget Style: http://wordpress.org/extend/plugins/dp-flickr-widget/
+	float all thumbnail sizes right
+	Footer or Siderbar widget area
+	-------------------------------------------------- */
+.flickr_badge_image {
+	float: right;
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+/* -------------------------------------------------------------------------------------------
+	MEDIA QUERIES   
+	Responsive Menu, Portfolio, Bird List
+------------------------------------------------------------------------------------------- */
+@media only screen and (max-width : 940px), only screen and (max-device-width : 940px)
+}
+
+}
+
+/* Artfully Masterminded by ZURB */
+/* --------------------------------------------------
+	:: Grid
+	
+	This is the mobile-friendly, responsive grid that
+	lets Foundation work much of its magic.
+	
+	-------------------------------------------------- */
+
+/* To fix the grid into a certain size, set max-width to width */
+
+.column, .columns {
+	margin-right: 4.4%;
+	float: right;
+	margin-left: auto;
+}
+
+.column:first-child, .columns:first-child {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+[class*="column"] + [class*="column"]:last-child {
+	float: left;
+}
+
+[class*="column"] + [class*="column"].end {
+	float: right;
+}
+
+.row .offset-by-one {
+	margin-right: 13.1%;
+	margin-left: auto;
+}
+
+.row .offset-by-two {
+	margin-right: 21.8%;
+	margin-left: auto;
+}
+
+.row .offset-by-three {
+	margin-right: 30.5%;
+	margin-left: auto;
+}
+
+.row .offset-by-four {
+	margin-right: 39.2%;
+	margin-left: auto;
+}
+
+.row .offset-by-five {
+	margin-right: 47.9%;
+	margin-left: auto;
+}
+
+.row .offset-by-six {
+	margin-right: 56.6%;
+	margin-left: auto;
+}
+
+.row .offset-by-seven {
+	margin-right: 65.3%;
+	margin-left: auto;
+}
+
+.row .offset-by-eight {
+	margin-right: 74.0%;
+	margin-left: auto;
+}
+
+.row .offset-by-nine {
+	margin-right: 82.7%;
+	margin-left: auto;
+}
+
+.row .offset-by-ten {
+	margin-right: 91.4%;
+	margin-left: auto;
+}
+
+.row .offset-by-one:first-child {
+	margin-right: 8.7%;
+	margin-left: auto;
+}
+
+.row .offset-by-two:first-child {
+	margin-right: 17.4%;
+	margin-left: auto;
+}
+
+.row .offset-by-three:first-child {
+	margin-right: 26.1%;
+	margin-left: auto;
+}
+
+.row .offset-by-four:first-child {
+	margin-right: 34.8%;
+	margin-left: auto;
+}
+
+.row .offset-by-five:first-child {
+	margin-right: 43.5%;
+	margin-left: auto;
+}
+
+.row .offset-by-six:first-child {
+	margin-right: 52.2%;
+	margin-left: auto;
+}
+
+.row .offset-by-seven:first-child {
+	margin-right: 60.9%;
+	margin-left: auto;
+}
+
+.row .offset-by-eight:first-child {
+	margin-right: 69.6%;
+	margin-left: auto;
+}
+
+.row .offset-by-nine:first-child {
+	margin-right: 78.3%;
+	margin-left: auto;
+}
+
+.row .offset-by-ten:first-child {
+	margin-right: 87%;
+	margin-left: auto;
+}
+
+.row .offset-by-eleven:first-child {
+	margin-right: 95.7%;
+	margin-left: auto;
+}
+
+/* Source Ordering */
+	.push-two {
+	right: 17.4%;
+	left: auto;
+}
+
+.push-three {
+	right: 26.1%;
+	left: auto;
+}
+
+.push-four {
+	right: 34.8%;
+	left: auto;
+}
+
+.push-five {
+	right: 43.5%;
+	left: auto;
+}
+
+.push-six {
+	right: 52.2%;
+	left: auto;
+}
+
+.push-seven {
+	right: 60.9%;
+	left: auto;
+}
+
+.push-eight {
+	right: 69.6%;
+	left: auto;
+}
+
+.push-nine {
+	right: 78.3%;
+	left: auto;
+}
+
+.push-ten {
+	right: 87%;
+	left: auto;
+}
+
+.pull-two {
+	left: 17.4%;
+	right: auto;
+}
+
+.pull-three {
+	left: 26.1%;
+	right: auto;
+}
+
+.pull-four {
+	left: 34.8%;
+	right: auto;
+}
+
+.pull-five {
+	left: 43.5%;
+	right: auto;
+}
+
+.pull-six {
+	left: 52.2%;
+	right: auto;
+}
+
+.pull-seven {
+	left: 60.9%;
+	right: auto;
+}
+
+.pull-eight {
+	left: 69.6%;
+	right: auto;
+}
+
+.pull-nine {
+	left: 78.3%;
+	right: auto;
+}
+
+.pull-ten {
+	left: 87%;
+	right: auto;
+}
+
+/* Nicolas Gallagher's micro clearfix */
+
+/*	--------------------------------------------------
+	:: Block grids
+	
+	These are 2-up, 3-up, 4-up and 5-up ULs, suited
+	for repeating blocks of content. Add 'mobile' to
+	them to switch them just like the layout grid
+	(one item per line) on phones
+	
+	For IE7/8 compatibility block-grid items need to be
+	the same height. You can optionally uncomment the
+	lines below to support arbitrary height, but know
+	that IE7/8 do not support :nth-child.
+	-------------------------------------------------- */
+
+.block-grid>li {
+	float: right;
+}
+
+.block-grid.two-up {
+	margin-right: -4%;
+	margin-left: auto;
+}
+
+.block-grid.two-up>li {
+	margin-right: 4%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.two-up>li:nth-child(2n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.three-up {
+	margin-right: -2%;
+	margin-left: auto;
+}
+
+.block-grid.three-up>li {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.three-up>li:nth-child(3n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.four-up {
+	margin-right: -2%;
+	margin-left: auto;
+}
+
+.block-grid.four-up>li {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.four-up>li:nth-child(4n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.five-up {
+	margin-right: -1.5%;
+	margin-left: auto;
+}
+
+.block-grid.five-up>li {
+	margin-right: 1.5%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.five-up>li:nth-child(5n+1) {
+	clear: right;
+}
+
+*/
+/* --------------------------------------------------
+	:: Grid
+	-------------------------------------------------- */
+	
+	/* Mobile */
+	@media only screen and (max-width: 767px) {
+
+.pull-nine {
+	left: 78.3%;
+	right: auto;
+}
+
+.pull-ten {
+	left: 87%;
+	right: auto;
+}
+
+/* Nicolas Gallagher's micro clearfix */
+
+/*	--------------------------------------------------
+	:: Block grids
+	
+	These are 2-up, 3-up, 4-up and 5-up ULs, suited
+	for repeating blocks of content. Add 'mobile' to
+	them to switch them just like the layout grid
+	(one item per line) on phones
+	
+	For IE7/8 compatibility block-grid items need to be
+	the same height. You can optionally uncomment the
+	lines below to support arbitrary height, but know
+	that IE7/8 do not support :nth-child.
+	-------------------------------------------------- */
+
+.block-grid>li {
+	float: right;
+}
+
+.block-grid.two-up {
+	margin-right: -4%;
+	margin-left: auto;
+}
+
+.block-grid.two-up>li {
+	margin-right: 4%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.two-up>li:nth-child(2n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.three-up {
+	margin-right: -2%;
+	margin-left: auto;
+}
+
+.block-grid.three-up>li {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.three-up>li:nth-child(3n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.four-up {
+	margin-right: -2%;
+	margin-left: auto;
+}
+
+.block-grid.four-up>li {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.four-up>li:nth-child(4n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.five-up {
+	margin-right: -1.5%;
+	margin-left: auto;
+}
+
+.block-grid.five-up>li {
+	margin-right: 1.5%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.five-up>li:nth-child(5n+1) {
+	clear: right;
+}
+
+}
+
+/* --------------------------------------------------
+	:: Block Grids
+	-------------------------------------------------- */	
+	
+	@media only screen and (max-width: 767px) {
+
+/* 	.block-grid.five-up>li:nth-child(5n+1) {
+	clear: right;
+}
+
+*/
+/* --------------------------------------------------
+	:: Grid
+	-------------------------------------------------- */
+	
+	/* Mobile */
+	@media only screen and (max-width: 767px) {
+
+.pull-nine {
+	left: 78.3%;
+	right: auto;
+}
+
+.pull-ten {
+	left: 87%;
+	right: auto;
+}
+
+/* Nicolas Gallagher's micro clearfix */
+
+/*	--------------------------------------------------
+	:: Block grids
+	
+	These are 2-up, 3-up, 4-up and 5-up ULs, suited
+	for repeating blocks of content. Add 'mobile' to
+	them to switch them just like the layout grid
+	(one item per line) on phones
+	
+	For IE7/8 compatibility block-grid items need to be
+	the same height. You can optionally uncomment the
+	lines below to support arbitrary height, but know
+	that IE7/8 do not support :nth-child.
+	-------------------------------------------------- */
+
+.block-grid>li {
+	float: right;
+}
+
+.block-grid.two-up {
+	margin-right: -4%;
+	margin-left: auto;
+}
+
+.block-grid.two-up>li {
+	margin-right: 4%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.two-up>li:nth-child(2n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.three-up {
+	margin-right: -2%;
+	margin-left: auto;
+}
+
+.block-grid.three-up>li {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.three-up>li:nth-child(3n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.four-up {
+	margin-right: -2%;
+	margin-left: auto;
+}
+
+.block-grid.four-up>li {
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.four-up>li:nth-child(4n+1) {
+	clear: right;
+}
+
+*/
+	
+	.block-grid.five-up {
+	margin-right: -1.5%;
+	margin-left: auto;
+}
+
+.block-grid.five-up>li {
+	margin-right: 1.5%;
+	margin-left: auto;
+}
+
+/* 	.block-grid.five-up>li:nth-child(5n+1) {
+	clear: right;
+}
+
+}
+
+}
+
+/* -------------------------------------------------- 
+	:: Mobile Visibility Affordances
+---------------------------------------------------*/
+
+/* Modernizr-enabled tablet targeting */
+	@media only screen and (max-width: 1280px) and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Specific overrides for elements that require something other than display: block */
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */

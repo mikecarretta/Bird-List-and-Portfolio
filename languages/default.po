@@ -1,0 +1,741 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bird List and Portfolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-06 21:03-0500\n"
+"PO-Revision-Date: 2012-06-06 21:04-0500\n"
+"Last-Translator: Mike Carretta <mikecarretta@gmail.com>\n"
+"Language-Team: Mike Carretta <mikecarretta@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:8
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../404.php:12
+#: ../content-none.php:7
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../archive.php:13
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:15
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:15
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:17
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Archives"
+msgstr ""
+
+#: ../author.php:12
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr ""
+
+#: ../comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:19
+#: ../comments.php:31
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:20
+#: ../comments.php:32
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:21
+#: ../comments.php:33
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../content-birds.php:33
+#: ../content-portfolio.php:34
+#: ../content.php:6
+msgid "Permanent Link to"
+msgstr ""
+
+#: ../content-birds.php:66
+#: ../content-portfolio.php:42
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../content-gallery.php:6
+#: ../content-image.php:14
+#: ../content-quote.php:10
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-author\">Posted on </span><a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a> <span class=\"meta-sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\">%6$s</a></span>"
+msgstr ""
+
+#: ../content-gallery.php:20
+#: ../content-gallery.php:25
+#: ../content-image.php:8
+#: ../content-quote.php:4
+#: ../content.php:30
+#: ../content.php:36
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-gallery.php:52
+#: ../content-image.php:9
+#: ../content-quote.php:5
+#: ../content.php:37
+#: ../image.php:57
+msgid "Pages:"
+msgstr ""
+
+#: ../content-gallery.php:57
+#: ../content.php:43
+msgid "Posted in "
+msgstr ""
+
+#: ../content-gallery.php:59
+#: ../content.php:45
+msgid "Tagged "
+msgstr ""
+
+#: ../content-gallery.php:60
+#: ../content-image.php:24
+#: ../content-quote.php:20
+#: ../content.php:46
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-gallery.php:60
+#: ../content-image.php:24
+#: ../content-quote.php:20
+#: ../content.php:46
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-gallery.php:60
+#: ../content-image.php:24
+#: ../content-quote.php:20
+#: ../content.php:46
+msgid "% Comments"
+msgstr ""
+
+#: ../content-gallery.php:61
+#: ../content-image.php:25
+#: ../content-quote.php:21
+#: ../content.php:47
+#: ../image.php:76
+msgid "Edit"
+msgstr ""
+
+#: ../content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content.php:15
+#, php-format
+msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a> <span class=\"meta-sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\">%6$s</a></span>"
+msgstr ""
+
+#: ../footer.php:32
+msgid "Powered by"
+msgstr ""
+
+#: ../footer.php:32
+msgid "WordPress"
+msgstr ""
+
+#: ../footer.php:32
+msgid "Bird Portfolio Theme"
+msgstr ""
+
+#: ../functions.php:69
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:88
+msgid "Home Page Column 1"
+msgstr ""
+
+#: ../functions.php:90
+msgid "Widetized home page - Column 1"
+msgstr ""
+
+#: ../functions.php:97
+msgid "Home Page Column 2"
+msgstr ""
+
+#: ../functions.php:99
+msgid "Widetized home page - Column 2"
+msgstr ""
+
+#: ../functions.php:106
+msgid "Bird Image Detail Sidebar"
+msgstr ""
+
+#: ../functions.php:108
+msgid "Widetized sidebar for the birds detail view"
+msgstr ""
+
+#: ../functions.php:115
+msgid "Portfolio Image Detail Sidebar"
+msgstr ""
+
+#: ../functions.php:117
+msgid "Widetized sidebar for the portfolio image detail view"
+msgstr ""
+
+#: ../functions.php:124
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:132
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:134
+#: ../functions.php:143
+#: ../functions.php:151
+msgid "Widetized footer"
+msgstr ""
+
+#: ../functions.php:141
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:149
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions.php:186
+msgid "Post navigation"
+msgstr ""
+
+#: ../functions.php:187
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../functions.php:188
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../header.php:30
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../image.php:60
+msgid "&larr; Previous Photo"
+msgstr ""
+
+#: ../image.php:61
+msgid "Next Photo &rarr;"
+msgstr ""
+
+#: ../image.php:68
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:70
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:72
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: ../image.php:74
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../options.php:25
+msgid "General Settings"
+msgstr ""
+
+#: ../options.php:28
+msgid "Custom Logo"
+msgstr ""
+
+#: ../options.php:29
+msgid "Upload a logo for your theme if you would like to use one."
+msgstr ""
+
+#: ../options.php:33
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../options.php:34
+msgid "Upload a 16px x 16px Png/Gif image to represent your website."
+msgstr ""
+
+#: ../options.php:38
+msgid "Header Background"
+msgstr ""
+
+#: ../options.php:39
+msgid "Change the header background color and/or upload a background texture."
+msgstr ""
+
+#: ../options.php:44
+msgid "Body Background"
+msgstr ""
+
+#: ../options.php:45
+msgid "Change the body background color and/or upload a background texture."
+msgstr ""
+
+#: ../options.php:50
+msgid "Footer Settings"
+msgstr ""
+
+#: ../options.php:53
+msgid "Custom Footer Text"
+msgstr ""
+
+#: ../options.php:54
+msgid "Custom text that will appear in the footer of your theme."
+msgstr ""
+
+#: ../search.php:9
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:19
+msgid "Meta"
+msgstr ""
+
+#: ../single.php:42
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../single.php:44
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../extensions/bird-post-type.php:10
+msgid "All Birds"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:12
+msgid "Add new bird"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:13
+msgid "Edit bird"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:14
+msgid "New bird"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:15
+msgid "View birds"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:16
+msgid "Search birds"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:17
+msgid "No birds found"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:18
+msgid "No birds found in trash"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:60
+msgid "Search bird order"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:61
+msgid "All bird order"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:65
+msgid "Edit bird order"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:66
+msgid "Update bird order"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:67
+msgid "Add new bird order"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:68
+msgid "New bird order"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:69
+msgid "Bird Order"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:83
+msgid "Search bird family"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:84
+msgid "All bird family"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:88
+msgid "Edit bird family"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:89
+msgid "Update bird family"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:90
+msgid "Add new bird family"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:91
+msgid "New bird family"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:92
+msgid "Bird family"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:106
+msgid "Search bird name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:107
+msgid "All bird name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:111
+msgid "Edit bird name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:112
+msgid "Update bird name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:113
+msgid "Add new bird name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:114
+msgid "New bird name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:115
+msgid "Bird name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:129
+msgid "Search in bird tags"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:130
+msgid "Popular bird tags"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:131
+msgid "All bird tags"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:135
+msgid "Edit bird tag"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:136
+msgid "Update bird tag"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:137
+msgid "Add new bird tags"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:138
+msgid "New bird tag name"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:139
+msgid "Separate bird tags with commas"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:140
+msgid "Add or remove bird tag"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:141
+msgid "Choose from the most used bird tags"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:142
+msgid "Bird Tags"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:160
+#: ../extensions/bird-post-type.php:189
+#: ../extensions/birdPortfolio-post-type.php:122
+msgid "Thumbnail"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:164
+#: ../extensions/birdPortfolio-post-type.php:125
+msgid "Author"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:165
+#: ../extensions/birdPortfolio-post-type.php:126
+msgid "Comments"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:166
+#: ../extensions/birdPortfolio-post-type.php:127
+msgid "Date"
+msgstr ""
+
+#: ../extensions/bird-post-type.php:205
+#: ../extensions/birdPortfolio-post-type.php:147
+#: ../extensions/birdPortfolio-post-type.php:157
+msgid "None"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:13
+msgid "Portfolio"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:14
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:15
+msgid "Add New Item"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:16
+#: ../extensions/birdPortfolio-post-type.php:18
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:17
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:19
+msgid "View Item"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:20
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:21
+msgid "No portfolio items found"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:22
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:123
+msgid "Category"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:124
+msgid "Tags"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:206
+msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:207
+msgid "<strong>Title</strong> - Enter a title for your post. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:208
+msgid "<strong>Post editor</strong> - Enter the text for your post. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your post text. You can insert media files by clicking the icons above the post editor and following the directions. You can go the distraction-free writing screen, new in 3.2, via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular post editor."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:209
+msgid "<strong>Publish</strong> - You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:210
+msgid "<strong>Post Format</strong> - This designates how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Please refer to the Codex for <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions of each post format</a>. Your theme could enable all or some of 10 possible formats."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:211
+msgid "<strong>Featured Image</strong> - This allows you to associate an image with your post without inserting it. This is usually useful only if your theme makes use of the featured image as a post thumbnail on the home page, a custom header, etc."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:212
+msgid "<strong>Send Trackbacks</strong> - Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. Enter the URL(s) you want to send trackbacks. If you link to other WordPress sites they&#8217;ll be notified automatically using pingbacks, and this field is unnecessary."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:213
+msgid "<strong>Discussion</strong> - You can turn comments and pings on or off, and if there are comments on the post, you can see them here and moderate them."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:214
+#: ../extensions/birdPortfolio-post-type.php:234
+msgid "For more information:"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:215
+msgid "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank\">Documentation on Writing and Editing Posts</a>"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:216
+#: ../extensions/birdPortfolio-post-type.php:236
+msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:219
+msgid "You can customize the display of this screen in a number of ways:"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:221
+msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:222
+msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:223
+msgid "You can view posts in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:224
+msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:226
+msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:228
+msgid "Edit takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:229
+msgid "Quick Edit provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:230
+msgid "Trash removes your post from this list and places it in the trash, from which you can permanently delete it."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:231
+msgid "Preview will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:233
+msgid "You can also edit multiple posts at once. Select the posts you want to edit using the checkboxes, select Edit from the Bulk Actions menu and click Apply. You will be able to change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
+msgstr ""
+
+#: ../extensions/birdPortfolio-post-type.php:235
+msgid "<a href=\"http://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentation on Managing Posts</a>"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:10
+msgid "Feature News"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:12
+msgid "Add feature news item"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:13
+msgid "Edit feature news item"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:14
+msgid "New sfeature news item"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:15
+msgid "View feature news item"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:16
+msgid "Search feature news items"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:17
+msgid "No feature items news found"
+msgstr ""
+
+#: ../extensions/featureItem-post-type.php:18
+msgid "No feature news items found in trash"
+msgstr ""
+
+#: ../extensions/options-functions.php:30
+#: ../extensions/options-functions.php:44
+msgid "Theme Options"
+msgstr ""
+
+#: ../extensions/options-functions.php:45
+#, php-format
+msgid "If you would like to use the Portfolio Press theme options, please install the %s plugin."
+msgstr ""
+
+#: ../extensions/options-functions.php:46
+msgid "Once the plugin is activated you will have option to:"
+msgstr ""
+
+#: ../extensions/options-functions.php:48
+msgid "Upload a logo image"
+msgstr ""
+
+#: ../extensions/options-functions.php:49
+msgid "Change the sidebar position"
+msgstr ""
+
+#: ../extensions/options-functions.php:50
+msgid "Change the menu position"
+msgstr ""
+
+#: ../extensions/options-functions.php:51
+msgid "Hide the portfolio image on the single post"
+msgstr ""
+
+#: ../extensions/options-functions.php:52
+msgid "Update the footer text"
+msgstr ""
+
+#: ../extensions/options-functions.php:55
+msgid "If you don't need these options, the plugin is not required and default settings will be used."
+msgstr ""
+
