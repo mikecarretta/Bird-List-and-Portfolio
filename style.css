@@ -215,7 +215,6 @@ h1 a:hover {
 	border-bottom: 2px solid #DDDDDD;
 	-webkit-box-shadow: 0px 1px 0px 0px #fff;
 	box-shadow: 0px 1px 0px 0px #fff;
-	height: 40px;
 }
 #header h1 {
 	text-shadow: 0 1px 0 #fff;
@@ -1330,6 +1329,10 @@ h3#pings {
 	-moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
 	box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, .2);
 }
+#birdCountHeader {
+	display: block;
+	float: left;
+}
 #birdCount {
 	display: block;
 	float: right;
@@ -1671,9 +1674,9 @@ h3#pings {
 		padding: .5% 1%;
 	}
 	#birdListCols {
-		width: 94%;
+		width: 98%;
 		height: auto;
-		margin-right: 0px;
+		margin: 0 1% 2% 0;
 	}
 	#photoHeader {
 		background-position:-200px 0px;
@@ -1722,6 +1725,15 @@ h3#pings {
 	#birdListThumb {
 	    height: 100px;
 	    width: 100px;
+		padding: 6px;
+	}
+	#birdListTitle {
+		margin: 0px;
+		padding: 0px;
+	}
+	#birdListTitle a {
+		font-size: 14px;
+		line-height: 110%;
 	}
 	#birdListExcerpt p {
 	    padding-left: 10px;
@@ -1745,7 +1757,7 @@ h3#pings {
 		height: 100px;
 	}
 	#featureNews h1 a {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	#homePageWidget .CustomPostWidget div {
 		min-height: 110px;
@@ -1773,7 +1785,7 @@ h3#pings {
 	
 	-------------------------------------------------- */
 
-	.container { padding: 0 20px; }
+	.container { padding: 0 10px; }
 	
 	.row { width: 100%; max-width: 980px; min-width: 727px; margin: 0 auto; }
 	/* To fix the grid into a certain size, set max-width to width */

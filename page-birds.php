@@ -6,13 +6,10 @@ get_header(); ?>
 
 <!-- Page Title and Bird Post Count Header-->
 	<div id="mainHeader" class="row"> 
-		<div id="header">
 
-			<div class="six columns">
-				<h1 class="six columns"><?php wp_title("",true); ?></h1>
-			</div>
-
-			<div class="six columns">
+			<div class="twelve columns" id="header">
+				<h1 id="birdCountHeader"><?php wp_title("",true); ?></h1>
+				
 				<h2 id="birdCount">	
 					<span id="birdCountBox">
 						<?php
@@ -22,9 +19,9 @@ get_header(); ?>
 					</span>
 					<span id="birdCountText"> Total Birds: </span>
 				</h2>
+				
 			</div>
 
-		</div><!-- END #header .row-->
 	</div><!-- END #mainHeader .row-->
 
 <?php get_template_part( 'content-birds' );
